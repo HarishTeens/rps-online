@@ -1,0 +1,33 @@
+html,body{
+    text-align: center;
+}
+
+.container{
+    margin:auto;
+}
+
+.window{
+    border: 5px solid #979292;
+    border-radius: 10px;
+    margin: 5vh 10vw;
+}
+
+.header{
+    border-bottom: 2px solid black;
+}
+
+.newRoom,.joinRoom{
+    margin: 4vh 1vw;
+}
+
+.controls,.leaderboard{
+    margin: 3vh 2vw;
+}
+
+.controls button{
+    margin: auto 4vw;
+}
+
+.leaderboard,.controls,#message{
+    display: none;
+}
