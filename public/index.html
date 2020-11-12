@@ -17,7 +17,7 @@
             <div class="body">
                 <div class="newRoom">
                     <h4>Create a New Game</h4>
-                    <form method="POST" action="/room">                        
+                    <form onsubmit="return false">                        
                         <input name="name" type="text" placeholder="your name here">
                         <button name="btn btn-primary">Create</button>
                     </form>
@@ -25,7 +25,7 @@
                 
                 <div class="joinRoom">
                     <h4>Join an existing Game</h4>
-                    <form method="POST" action="/room">                        
+                    <form onsubmit="return false">                        
                         <input name="name" type="text" placeholder="your name here">
                         <input name="roomID" type="text" placeholder="room ID here">
                         <button class="btn btn-primary">Join</button>
