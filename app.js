@@ -48,12 +48,3 @@ const getWinner=(p, c)=>  {
         }
     }
 }
-//Function to do executed after gettin both choices
-const result=(roomID)=> {
-    var winner = getWinner(choice1, choice2);
-    io.sockets.to(roomID).emit("result", {
-        winner: winner
-    });
-    choice1 = "";
-    choice2 = "";
-}
