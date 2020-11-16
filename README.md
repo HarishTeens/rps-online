@@ -1,6 +1,6 @@
 # Welcome to Rock Paper Scissor Online
 
-This Repo contains the starter code with all the necessary setup to UI elements. 
+This Repo contains the starter code with all the necessary setup and UI elements. 
 
 ### Step to Setup on your local
 
